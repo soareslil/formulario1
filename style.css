@@ -42,7 +42,43 @@ margin-bottom: 1em;
 }
 
 .campo label {
-margin: 0.2em;
-color:#8880FE;
+margin-bottom: 0.2em;
+color:#59429d;
 display: block;
 }
+
+fieldset.grupo .campo {
+float: left;
+margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+padding: 0.2em;
+border: 1px solid #59429d;
+box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+display: block;
+}
+
+.campo select optin{
+padding-right: 1em;
+}
+
+
+
+
+
+.botao {
+font-size: 1.2em;
+background: #8880FE;
+border: 0;
+margin-bottom: 1em;
+color:white;
+padding: 0.2em 0.6em;
+box-shadow: 2px 2px 2px;
+text-shadow: 1px 1px 1px;
+position:absolute;
+top: 90%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+ }
