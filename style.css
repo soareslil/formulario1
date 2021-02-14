@@ -78,7 +78,7 @@ padding-right: 1em;
 }
 
 .campo input:focus, .campo select:focus, .campo textarea:focus{
-background: white;
+background: rgb(166, 187, 228);
 }
 
 .botao {
@@ -91,7 +91,7 @@ padding: 0.2em 0.6em;
 box-shadow: 2px 2px 2px;
 text-shadow: 1px 1px 1px;
 position:absolute;
-top: 90%;
+top: 125%;
 left: 50%;
 margin-right: -50%;
 transform: translate(-50%, -50%);
