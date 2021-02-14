@@ -13,13 +13,16 @@ color: #8880FE,
 }
 
 #subtitle {
-font-family: 'poppins', sans-serif;
-margin-left: 10%;
-color:#8880FE;
+    font-family: 'poppins', sans-serif;
+    margin-left: 10%;
+    color:#8880FE;
 }
 
+#check {
+display: inline-block;
+}
 
-fildset {
+fieldset {
 border: 0;
 }
 
