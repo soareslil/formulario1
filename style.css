@@ -36,3 +36,13 @@ justify-content: center;
 input, select, textarea, button {
 border-radius: 5px;
 }
+
+.campo {
+margin-bottom: 1em;
+}
+
+.campo label {
+margin: 0.2em;
+color:#8880FE;
+display: block;
+}
