@@ -37,7 +37,18 @@ justify-content: center;
 }
 
 input, select, textarea, button {
+font-family: 'poppins', sans-serif;
+font-size: 1em;
+color: #59429d;
 border-radius: 5px;
+}
+
+.grupo:before, .grupo:after{
+display: table;
+}
+
+.grupo:after{
+clear: both;
 }
 
 .campo {
@@ -90,4 +101,8 @@ transform: translate(-50%, -50%);
 background: whitesmoke;
 box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
 text-shadow: none;
+}
+
+.botao, select{
+cursor: pointer;
 }
