@@ -63,9 +63,9 @@ display: block;
 padding-right: 1em;
 }
 
-
-
-
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+background: white;
+}
 
 .botao {
 font-size: 1.2em;
